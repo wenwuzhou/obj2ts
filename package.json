@@ -1,0 +1,21 @@
+{
+  "name": "@zwwpa/obj2ts",
+  "version": "1.0.0",
+  "description": "自动生成ts接口",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./build & tsc -p .",
+    "build:watch": "tsc -p . -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "ts"
+  ],
+  "author": "zhouwenwu",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
