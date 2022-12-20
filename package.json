@@ -1,6 +1,6 @@
 {
   "name": "@zwwpa/obj2ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自动生成ts接口",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -13,6 +13,10 @@
     "javascript",
     "ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wenwuzhou/obj2ts.git"
+  },
   "author": "zhouwenwu",
   "license": "ISC",
   "dependencies": {
